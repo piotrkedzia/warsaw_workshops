@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  before_action :authenticate_user!
   expose(:category)
   expose(:products)
   expose(:product)
@@ -15,11 +16,18 @@ class ProductsController < ApplicationController
   end
 
   def edit
+    if product.user != current_user
+
+      flash[:error] = 'You are not allowed to edit this product.'
+      redirect_to category_product_url(category,product)
+      #Why this doesn't work?
+      #redirect_to(category_product_url(category, product), error: "You are not allowed to edit this product.")
+    end
   end
 
   def create
     self.product = Product.new(product_params)
-
+    product.user = current_user
     if product.save
       category.products << product
       redirect_to category_product_url(category, product), notice: 'Product was successfully created.'
@@ -29,10 +37,19 @@ class ProductsController < ApplicationController
   end
 
   def update
-    if self.product.update(product_params)
-      redirect_to category_product_url(category, product), notice: 'Product was successfully updated.'
+    if product.user != current_user
+
+      flash[:error] = 'You are not allowed to edit this product.'
+      redirect_to category_product_url(category, product)
+      #Why this doesn't work?
+      #redirect_to(category_product_url(category, product), error: "You are not allowed to edit this product.")
     else
-      render action: 'edit'
+      if self.product.update(product_params)
+        redirect_to category_product_url(category, product), notice: 'Product was successfully updated.'
+      else
+        # render action: 'edit' ??? is this ok
+        redirect_to category_product_url(category, product), notice: 'There was some errors'
+      end
     end
   end
 
