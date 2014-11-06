@@ -547,3 +547,448 @@ If you need more of the backtrace for any of these deprecations to
 identify where to make the necessary changes, you can configure
 `config.raise_errors_for_deprecations!`, and it will turn the
 deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/products_controller_spec.rb:42:in `block (3 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:140:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:154:in `block (5 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+Using `should` from rspec-expectations' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:170:in `block (4 levels) in <top (required)>'.
+
+Using `stub` from rspec-mocks' old `:should` syntax without explicitly enabling the syntax is deprecated. Use the new `:expect` syntax or explicitly enable `:should` instead. Called from /home/kedzpipl/workspace/netguru/workshops/spec/controllers/categories_controller_spec.rb:13:in `block (2 levels) in <top (required)>'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+/usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require': /home/kedzpipl/workspace/netguru/workshops/app/models/product.rb:8: syntax error, unexpected ':', expecting keyword_end (SyntaxError)
+                    numericality:  :greater_than: 0.01 
+                                                 ^
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `block in require'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:232:in `load_dependency'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:348:in `require_or_load'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:480:in `load_missing_constant'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:180:in `const_missing'
+	from /home/kedzpipl/workspace/netguru/workshops/spec/models/product_spec.rb:3:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in `block in load_spec_files'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in `each'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in `load_spec_files'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in `setup'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in `run'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in `run'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in `invoke'
+	from /usr/local/rvm/gems/ruby-2.1.2/gems/rspec-core-3.0.4/exe/rspec:4:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/rspec:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/rspec:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+	from /usr/local/rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
+RSpec's reporter has already been initialized with #<IO:<STDERR>> as the deprecation stream, so your change to `deprecation_stream` will be ignored. You should configure it earlier for it to take effect, or use the `--deprecation-out` CLI option. (Called from /home/kedzpipl/workspace/netguru/workshops/spec/spec_helper.rb:30:in `block in <top (required)>')
+
+Deprecation Warnings:
+
+Requiring `rspec/autorun` when running RSpec via the `rspec` command is deprecated. Called from /usr/local/rvm/gems/ruby-2.1.2/gems/activesupport-4.1.5/lib/active_support/dependencies.rb:247:in `require'.
+
+
+If you need more of the backtrace for any of these deprecations to
+identify where to make the necessary changes, you can configure
+`config.raise_errors_for_deprecations!`, and it will turn the
+deprecation warnings into errors, giving you the full backtrace.
