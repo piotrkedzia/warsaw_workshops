@@ -6,4 +6,7 @@ class User < ActiveRecord::Base
 
   has_many :reviews
   has_many :products
+
+  validates :lastname, presence: true
+  validates :firstname, presence: true
 end
