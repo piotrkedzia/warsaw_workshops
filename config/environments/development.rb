@@ -34,4 +34,14 @@ Workshops::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  #
+  #
+  #Better errors unlock remote client
+
+  BetterErrors::Middleware.allow_ip! ENV['TRUSTED_IP'] if ENV['TRUSTED_IP']
+  #Then run Rails like this:
+
+  #TRUSTED_IP=66.68.96.220 rails s
+  #Note that the allow_ip! is actually backed by a Set, so you can add more than one IP address or subnet.
+  #Tip: You can find your apparent IP by hitting the old error page's "Show env dump" and looking at "REMOTE_ADDR".
 end

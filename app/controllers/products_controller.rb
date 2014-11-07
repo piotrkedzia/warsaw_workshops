@@ -27,7 +27,7 @@ class ProductsController < ApplicationController
 
   def create
     self.product = Product.new(product_params)
-    product.user = current_user
+    self.product.user = current_user
     if product.save
       category.products << product
       redirect_to category_product_url(category, product), notice: 'Product was successfully created.'
@@ -37,7 +37,7 @@ class ProductsController < ApplicationController
   end
 
   def update
-    if product.user != current_user
+    if self.product.user != current_user
 
       flash[:error] = 'You are not allowed to edit this product.'
       redirect_to category_product_url(category, product)
