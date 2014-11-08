@@ -1,6 +1,6 @@
 %h1 Listing products
 
-%table
+%table.table.table-hover
   %tr
     %th Title
     %th Description
@@ -15,7 +15,13 @@
       %td= product.description
       %td= product.price
       %td= link_to 'Show', category_product_path(product.category, product)
-      %td= link_to 'Edit', edit_category_product_path(product.category, product)
-      %td= link_to 'Destroy', category_product_path(product.category, product), method: :delete, data: { confirm: 'Are you sure?' }
+      - if current_user == product.user
+        %td= link_to 'Edit', edit_category_product_path(product.category, product)
+      - else
+        %td Edit 
+      - if current_user == product.user
+        %td= link_to 'Destroy', category_product_path(product.category, product), method: :delete, data: { confirm: 'Are you sure?' }
+      - else
+        %td Destroy
 
 %br

@@ -9,4 +9,8 @@ class User < ActiveRecord::Base
 
   validates :lastname, presence: true
   validates :firstname, presence: true
+
+ def last_reviews
+   reviews.last(5)
+ end 
 end
