@@ -1,0 +1,7 @@
+.col-sm-3.col-md-2.sidebar
+  %ul.nav.nav-sidebar
+    %li.active
+      =link_to 'Home', categories_path
+    %li= link_to 'Profile page', user_profile_path
+    %li= link_to 'About project', 'https://pl-pl.facebook.com/events/261344594011358/'
+    %li= link_to 'Log out',  destroy_user_session_path, :method => :delete

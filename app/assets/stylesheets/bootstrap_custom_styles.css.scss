@@ -1,0 +1,44 @@
+/* User sign in and sign forms. */
+.border-form-div {
+  max-width: 400px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+  }
+  a {
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+.form-default {
+  @extend .border-form-div;
+  margin: 1px;
+  padding: 1px;
+  border: none;
+}
+
+.category-table {
+  @extend .table;
+  max-width: 500px;
+}
+
+.products-table {
+  @extend .table, .table-striped;
+  max-width: 800px;
+}
+
+.panel {
+   max-width: 400px;
+}
+.jumbotron {
+  margin-right: 50px;
+}

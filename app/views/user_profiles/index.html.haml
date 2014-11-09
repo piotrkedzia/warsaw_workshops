@@ -1,0 +1,13 @@
+.jumbotron
+  %h1 User profile page
+  
+  %p= user.lastname
+  %p= user.firstname
+  %p= user.email
+  
+
+%h4 Latest reviews
+%ul
+  -reviews.each do |review|
+    .panel-body
+      %li="#{review.content}   #{review.created_at.strftime('%Y-%m-%d')}"
