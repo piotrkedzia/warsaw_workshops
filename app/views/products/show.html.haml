@@ -1,7 +1,4 @@
-%p#notice= notice
-%p#error= flash[:error]
-
-.jumbotron
+.product-jumbotron
   %h3
     %b Title:
     = product.title
@@ -17,10 +14,9 @@
     = product.category.name
 
 %h3 Reviews
+= render reviews
 = render 'reviews/form'
 
-.panel.panel-default
-  = render reviews
 
 
 - if product.user == current_user

@@ -1,5 +1,8 @@
 /* User sign in and sign forms. */
 .border-form-div {
+  border: 1px solid #dbd9d9;
+  border-radius: 3px;
+
   max-width: 400px;
   padding: 19px 29px 29px;
   margin: 0 auto 20px;
@@ -22,7 +25,7 @@
 .form-default {
   @extend .border-form-div;
   margin: 1px;
-  padding: 1px;
+  padding: 15px 1px 15px 1px;
   border: none;
 }
 
@@ -37,8 +40,45 @@
 }
 
 .panel {
-   max-width: 400px;
+  max-width: 400px;
 }
 .jumbotron {
   margin-right: 50px;
+  padding-top: 15px;
+  background-color: #E4F5FF;
+
+}
+
+/* Custom navbar style */
+.navbar-default {
+  background-color: #323a45;
+  border-color: #323a45;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #d7d7d7;
+  border-radius: 0;
+}
+.signup-btn {
+  @extend .btn;
+  border: 1px solid #f36;
+  border-radius: 3px;
+  margin-left: 10px;
+  padding: 5px;
+  color: pink;
+}
+.navbar-brand {
+   font-size: 25px;
+   color: red;
+}
+.product-jumbotron {
+   @extend .jumbotron;
+   max-width: 600px;
+}
+#notice {
+   @extend .alert-success;
+   padding: 20px;
+}
+#error, #error_explanation {
+   @extend .alert-danger;
+   padding: 20px;
 }

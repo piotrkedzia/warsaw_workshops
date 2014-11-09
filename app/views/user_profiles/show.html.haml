@@ -1,11 +1,18 @@
 .jumbotron
-  %h1 User profile page
-  
-  %p= user.lastname
-  %p= user.firstname
-  %p= user.email
+  %h2 Profile page
+
+  %h3 
+    %small Last name: 
+    =user.lastname
+  %h3
+    %small First name:
+    =user.firstname
+
+  %h3
+    %small Email:
+    = user.email
+  %br
   %p=link_to 'All user reviews', user_reviews_path
-  
 
 %h4= reviews.size<=5 ? "Recent user reviews" : "All user reviews"
 %ul

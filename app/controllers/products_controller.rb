@@ -18,11 +18,8 @@ class ProductsController < ApplicationController
 
   def edit
     if product.user != current_user
-
       flash[:error] = 'You are not allowed to edit this product.'
       redirect_to category_product_url(category,product)
-      #Why this doesn't work?
-      #redirect_to(category_product_url(category, product), error: "You are not allowed to edit this product.")
     end
   end
 
@@ -39,17 +36,13 @@ class ProductsController < ApplicationController
 
   def update
     if self.product.user != current_user
-
       flash[:error] = 'You are not allowed to edit this product.'
       redirect_to category_product_url(category, product)
-      #Why this doesn't work?
-      #redirect_to(category_product_url(category, product), error: "You are not allowed to edit this product.")
     else
       if self.product.update(product_params)
         redirect_to category_product_url(category, product), notice: 'Product was successfully updated.'
       else
-        # render action: 'edit' ??? is this ok
-        redirect_to category_product_url(category, product), notice: 'There was some errors'
+        redirect_to category_product_url(category, product), error: 'There was some errors'
       end
     end
   end

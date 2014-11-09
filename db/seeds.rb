@@ -11,7 +11,7 @@ User.create!(email: 'test2@op.pl', password: 'testtest', firstname: "Andree", la
 User.create!(email: 'test3@op.pl', password: 'testtest', firstname: "Ben", lastname: "Ten")
 User.create!(email: 'test4@op.pl', password: 'testtest', firstname: "Steven", lastname: "Kowalski")
 User.create!(email: 'test5@op.pl', password: 'testtest', firstname: "Jack", lastname: "Smith")
-User.create!(email: 'admin@op.pl', password: 'testtest', firstname: "Neo", lastname: "Anderson", admin: true)
+User.create!(email: 'admin@gm.pl', password: 'testtest', firstname: "Neo", lastname: "Anderson", admin: true)
 
 Category.create!([{name: 'Fruits'}, { name: 'Movies' }, { name: 'Software' }, { name: 'Cars' }])
 
