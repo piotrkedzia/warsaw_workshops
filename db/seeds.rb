@@ -7,11 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 User.create!(email: 'john@gm.com', password: 'testtest', firstname: "John", lastname: "Connor")
-User.create!(email: 'test2@op.pl', password: 'testtest', firstname: "Andree", lastname: "Mone")
-User.create!(email: 'test3@op.pl', password: 'testtest', firstname: "Ben", lastname: "Ten")
-User.create!(email: 'test4@op.pl', password: 'testtest', firstname: "Steven", lastname: "Kowalski")
-User.create!(email: 'test5@op.pl', password: 'testtest', firstname: "Jack", lastname: "Smith")
-User.create!(email: 'admin@gm.pl', password: 'testtest', firstname: "Neo", lastname: "Anderson", admin: true)
+User.create!(email: 'test2@gm.com', password: 'testtest', firstname: "Andree", lastname: "Mone")
+User.create!(email: 'test3@gm.com', password: 'testtest', firstname: "Ben", lastname: "Ten")
+User.create!(email: 'test4@gm.com', password: 'testtest', firstname: "Steven", lastname: "Kowalski")
+User.create!(email: 'test5@gm.com', password: 'testtest', firstname: "Jack", lastname: "Smith")
+#admin
+User.create!(email: 'admin@gm.com', password: 'testtest', firstname: "Neo", lastname: "Anderson", admin: true)
 
 Category.create!([{name: 'Fruits'}, { name: 'Movies' }, { name: 'Software' }, { name: 'Cars' }])
 

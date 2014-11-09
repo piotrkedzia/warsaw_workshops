@@ -78,7 +78,7 @@
    @extend .alert-success;
    padding: 20px;
 }
-#error, #error_explanation {
+#error, #error_explanation, #alert {
    @extend .alert-danger;
    padding: 20px;
 }
