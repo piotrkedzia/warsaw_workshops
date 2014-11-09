@@ -6,10 +6,11 @@
     %th
     %th
     %th
-
+    %th
   - categories.each do |category|
     %tr
       %td= category.name
+      %td= link_to 'Category products', category_products_path(category)
       %td= link_to 'Show', category
       - if user_signed_in? && current_user.admin?
         %td= link_to 'Edit', edit_category_path(category)
