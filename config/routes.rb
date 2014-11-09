@@ -9,5 +9,4 @@ Rails.application.routes.draw do
   end
   get 'user/profile', to: 'user_profiles#show', as: 'user_profile'
   get 'user/reviews', to: 'user_profiles#user_reviews', as: 'user_reviews'
-  get 'categories/all_products', to: 'products#index', as: 'all_products'
 end
