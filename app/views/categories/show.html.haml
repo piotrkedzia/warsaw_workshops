@@ -5,7 +5,7 @@
 
 %p
   - category.products.each do |product|
-    = product.title
+    = link_to product.title, category_product_path(category,product)
 
 %p
   %h3 New product

@@ -1,4 +1,12 @@
-%p= review.content
-%p
-  %b= review.rating
-  %em= review.author
+/*%p= review.content
+/%p
+/  %b= review.rating
+/  %em= review.author
+
+.panel-heading
+  %h3.panel-title 
+    = review.author 
+    %small rating:
+    %span.badge= review.rating
+.panel-body
+  =review.content
